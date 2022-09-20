@@ -13,8 +13,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm ci
-      - run: npm test
+      - run: npm ci --prefix pkgtest/sample-packages/npm/package.json
+      - run: npm test --prefix pkgtest/sample-packages/npm/package.json
 
   publish-gpr:
     needs: build
