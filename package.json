@@ -1,6 +1,19 @@
-
 {
   "scripts": {
     "test": "jest"
-  }
+  },
+  "name": "pkgtestnpm",
+  "description": "This exercise checks your ability to publish to a GitHub Packages registry. It is automatically graded via a workflow once you have completed the instructions.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ancharbo/pkgtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ancharbo/pkgtest/issues"
+  },
+  "homepage": "https://github.com/ancharbo/pkgtest#readme"
 }
