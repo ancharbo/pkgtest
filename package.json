@@ -1,11 +1,11 @@
 {
-  "scripts": {
-    "test": "exit 0"
-  },
-  "name": "pkgtestnpm",
+  "name": "@ancharbo/publish-package",
   "description": "This exercise checks your ability to publish to a GitHub Packages registry. It is automatically graded via a workflow once you have completed the instructions.",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ancharbo/pkgtest.git"
