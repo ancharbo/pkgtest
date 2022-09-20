@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ancharbo/pkgtest/issues"
   },
-  "homepage": "https://github.com/ancharbo/pkgtest#readme"
+  "homepage": "https://github.com/ancharbo/pkgtest#readme",
+  "publishConfig": {
+    "@ancharbo:registry": "https://npm.pkg.github.com"
+   }
 }
